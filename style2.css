@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.wrapper {
+    padding: 20px;
+    margin: 20px;
+}
+
+.nav ul li {
+    background-color: aqua;
+    display: inline-block;
+}
+
+/*Untuk menghilangkan garis bawah dari hyperlink*/
+.nav a {
+    text-decoration: none;
+}
+
+.content img {
+    display: block;
+    width: 250px;
+    margin: auto;
+}
+
+/* child combinator */
+footer > p > span {
+    color: blue;
+
+}
+
+/*dua kelas yang memiliki atribut yang sama*/
+.satu, .dua {
+    font-size: 30pt;
+}
+
+/*sibling: kalau persyaratannya terpenuhi, maka akan ter-apply*/
+.satu + .dua {
+    font-size: 30pt;
+}
